@@ -1,0 +1,88 @@
+﻿<style type="text/css">
+    .cinemaDesk {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+        display: inline-block;
+        color: red;
+        font-weight: bold;
+    }
+
+    .descYellow {
+        background-color: yellow !important;
+    }
+
+    .descGreen {
+        background-color: #48ad59;
+    }
+</style>
+
+
+<hr />
+<div class="row">
+    <div class="desk" id="desk">
+        <p id="catId"></p>
+        <p id="catName"></p>
+    </div>
+</div>
+
+
+<script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+<script type="text/javascript">
+
+    function DataIslem(data) {
+        for (var i = 0; i < data.length; i++) {
+            if (!$('#catId').text().includes(data[i].Id)) {
+                $('#desk').append('<div class="cinemaDesk descGreen" id=deskId' + data[i].Id.toString() + '><p>' + data[i].Id + '</p></div>');
+                if (data[i].isChecked) {
+                    $('#deskId' + data[i].Id.toString()).removeClass("descGreen").addClass("descYellow");
+                }
+                $('#deskId' + data[i].Id.toString()).append('<p>' + data[i].Name + '</p>');
+                $('#catId').append(data[i].Id + ',');
+                $('#catName').append(data[i].Name);
+            }
+            else {
+                if (data[i].isChecked) {
+                    $('#deskId' + data[i].Id.toString()).removeClass("descGreen").addClass("descYellow");
+                }
+            }
+        }
+    }
+
+        $.ajax('/Home/DataControl1',   // request url
+            {
+                success: function (data, status, xhr) {    // success callback function
+                    if (data != null) {
+                        DataIslem(data);
+                    }
+                    //else {
+                    //    alert("bir şeyler yanlış gitti");
+                    //}
+                },
+                error: function () {
+                }
+            });
+
+    myVar = setInterval(DataControl2, 5000);
+
+    function DataControl2() {
+        $.ajax('/Home/DataControl2',   // request url
+            {
+                success: function (data, status, xhr) {    // success callback function
+                    if (data != null && data!="") {
+                        DataIslem(data);
+                    }
+
+                    //else {
+                    //    alert("bir şeyler yanlış gitti");
+                    //}
+                },
+                error: function () {
+                }
+            });
+    }
+</script>

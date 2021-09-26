@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCinema.Data", "RedisCinema.Data\RedisCinema.Data.csproj", "{D277D678-F9DE-40F2-81E9-F55C28071B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCinema.Model", "RedisCinema.Model\RedisCinema.Model.csproj", "{CC7118BD-5C53-4246-B9FC-6DC6BEF797B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCinema.WebUI", "RedisCinema.WebUI\RedisCinema.WebUI.csproj", "{EB42C69F-22F1-402A-A20B-570E745040EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D277D678-F9DE-40F2-81E9-F55C28071B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D277D678-F9DE-40F2-81E9-F55C28071B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D277D678-F9DE-40F2-81E9-F55C28071B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D277D678-F9DE-40F2-81E9-F55C28071B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7118BD-5C53-4246-B9FC-6DC6BEF797B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7118BD-5C53-4246-B9FC-6DC6BEF797B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7118BD-5C53-4246-B9FC-6DC6BEF797B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7118BD-5C53-4246-B9FC-6DC6BEF797B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB42C69F-22F1-402A-A20B-570E745040EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB42C69F-22F1-402A-A20B-570E745040EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB42C69F-22F1-402A-A20B-570E745040EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB42C69F-22F1-402A-A20B-570E745040EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56AA5C3E-96F0-4CC5-88B4-020A9947162F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\Redis-Sample\Model\bin\Debug\Model.dll
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\Redis-Sample\Model\bin\Debug\Model.pdb
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\Redis-Sample\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\Redis-Sample\Model\obj\Debug\Model.dll
+C:\Users\YIGIDO-MONSTER\Documents\Visual Studio 2015\Projects\Redis-Sample\Model\obj\Debug\Model.pdb
+C:\Users\kemal\Desktop\Redis-master\Model\bin\Debug\Model.dll
+C:\Users\kemal\Desktop\Redis-master\Model\bin\Debug\Model.pdb
+C:\Users\kemal\Desktop\Redis-master\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\kemal\Desktop\Redis-master\Model\obj\Debug\Model.dll
+C:\Users\kemal\Desktop\Redis-master\Model\obj\Debug\Model.pdb
